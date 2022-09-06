@@ -47,4 +47,49 @@
     $arr = array('Hello','World','Beautiful','Day');
     count($cars);
 
+//////Array Push ////////////////////////////////////////
+
+     $a=array("red","green");
+     array_push($a,"blue","yellow");  //Array ( [0] => red [1] => green [2] => blue [3] => yellow ) 
+
+//////Is Array? /////////////////////////////////////////
+     $a=array("red","green");
+     if(is_array($a))
+     {
+          //do something
+     }
+
+//////Is Null //////////////////////////////////////////
+     //Check whether a variable is NULL or not
+     
+     if(is_null($a))
+     {
+     
+     }
+
+//////Is Empty/////////////////////////////////////////
+     //Check whether a variable is empty
+     
+     if (empty($a)) 
+     {
+       echo "Variable 'a' is empty.<br>";
+     }
+
+//////in_array() Function//////////////////////////////
+     //Search for the value "Glenn" in an array
+     
+     $people = array("Peter", "Joe", "Glenn", "Cleveland");
+       if (in_array("Glenn", $people))
+       {
+          echo "Match found";
+       }
+
+//////Some Necessary Function////////////////////////
+
+$x = strtoupper("Hello WORLD"); // HELLO WORLD
+$x = strtolower("Hello WORLD"); // hello world 
+$y = substr($x,6); //WORLD
+
+
+
 
