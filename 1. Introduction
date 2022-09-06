@@ -1,0 +1,34 @@
+"PHP: Hypertext Preprocessor"
+PHP is a widely-used, open source scripting language
+executed on the server (server side language)
+
+
+//////PHP Syntax///////
+1. 
+    <?php
+      // PHP code write here
+    ?> 
+
+2. <?php
+      echo "Hello From PHP";
+    ?>
+3. 
+    {{$variablename}}    //to display data
+    or
+    echo $variablename;
+ 
+ 
+ /////Example////////////////////////////
+ 
+  <!DOCTYPE html>
+  <html>
+  <body>
+
+    <h1>My first PHP page</h1>
+
+    <?php
+      echo "Hello World!";
+    ?>
+
+  </body>
+  </html> 
