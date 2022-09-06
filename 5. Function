@@ -89,6 +89,12 @@
 $x = strtoupper("Hello WORLD"); // HELLO WORLD
 $x = strtolower("Hello WORLD"); // hello world 
 $y = substr($x,6); //WORLD
+$x = trim($x); //Remove blank space from both sides of a string
+$x = ucwords("hello world"); //Hello World 
+$x = str_replace("world","doll", $x); //Hello doll
+
+
+
 
 
 
