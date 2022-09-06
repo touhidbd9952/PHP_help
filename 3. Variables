@@ -1,0 +1,10 @@
+
+$txt = "My world";
+$x = 5;
+$y = 10.5;
+$z = $x + $y;
+$cars = array("Volvo","BMW","Toyota");
+
+echo "I love " . $txt . "!";
+
+
